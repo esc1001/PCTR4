@@ -1,3 +1,13 @@
-# Practica3_PCTR_DependenciasEstados
+# Pr�ctica 4 - PCTR - UBU
 
-Plantilla para la realización de la tercera práctica de la asignatura de Programación Concurrente y Tiempo Real del Grado en Ingeniería Informática de la Universidad de Burgos.
+## Equipo
+
+Javier Mart�n y Eduardo Sánchez
+
+## Instrucciones de compilación
+
+Desde la ra�z ejecutar `mvn clean install`
+
+## Instrucciones de ejecuci�n
+
+Desde la ra�z ejecutar `java -cp target/practicas-1.0-SNAPSHOT.jar pg04.c01.SistemaLanzador
