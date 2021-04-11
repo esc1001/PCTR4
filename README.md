@@ -10,4 +10,4 @@ Desde la raíz ejecutar `mvn clean install`
 
 ## Instrucciones de ejecución
 
-Desde la raíz ejecutar `java -cp target/practicas-1.0-SNAPSHOT.jar pg04.c01.SistemaLanzador
+Desde la raíz ejecutar `java -cp target/practicas-1.0-SNAPSHOT.jar pg04.c01.SistemaLanzador`
