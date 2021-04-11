@@ -2,6 +2,8 @@ package pg04.c01;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Parque implements IParque{
 
@@ -105,6 +107,7 @@ public class Parque implements IParque{
 			try { 
 				wait();
 			} catch (InterruptedException e) {
+				Logger.getGlobal().log(Level.WARNING, "Salida interrumpida, seguimos esperando. Personas: " + contadorPersonasTotales);
 			}
 		}
 	}
