@@ -55,7 +55,7 @@ public class Parque implements IParque{
 		
 		// Iteramos por todas las puertas e imprimimos sus entradas
 		for(String p: contadoresPersonasPuerta.keySet()){
-			System.out.println("----> Por puerta " + p + " IN[" + contadoresPersonasPuerta.get(p) + "] OUT[" + contadoresPersonasPuerta.get(p) + "]");
+			System.out.println("----> Por puerta " + p + " IN[" + contadoresPersonasPuerta.get(p) + "] OUT[" + contadoresPersonasPuertaSalida.get(p) + "]");
 		}
 		System.out.println(" ");
 	}
