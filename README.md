@@ -6,8 +6,8 @@ Javier Martín y Eduardo Sánchez
 
 ## Requisitos
 
-Java >= 8
-Maven >= 3.6
+* Java >= 8
+* Maven >= 3.6
 
 ## Instrucciones de compilación
 
