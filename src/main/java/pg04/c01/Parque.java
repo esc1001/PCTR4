@@ -91,8 +91,8 @@ public class Parque implements IParque{
 	}
 	
 	protected void checkInvariante() {
-		sumarEntradas = sumarContadoresPuerta();
-		sumarSalidas = sumarContadoresPuertaSalida();
+		int sumarEntradas = sumarContadoresPuerta();
+		int sumarSalidas = sumarContadoresPuertaSalida();
 		assert sumarEntradas >= contadorPersonasTotales : "INV: La suma de contadores de las puertas de entrada debe ser mayor o igual al valor del contador del parque";
 		assert sumarSalidas >= sumarEntradas : "INV: La suma de contadores de las puertas de salida debe ser mayor o igual a la suma de contadores de las puertas de entrada";
 		assert sumarEntradas - sumarSalidas == contadorPersonasTotales : "INV: La suma de contadores de las puertas de entrada menos la suma de contadores de las puertas de salida debe ser igual al valor del contador del parque";
